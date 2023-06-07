@@ -12,10 +12,12 @@
 .header {
     height: 100vh;
     font-weight: bold;
-    background-image: url("../images/pele-header4.jpeg");
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/pele-header4.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 
 .header .header-container {
@@ -28,6 +30,7 @@
 
 .header .header-container .logo h2 {
     font-size: 3rem;
+    color: white;
 }
 
 .header .header-container nav ul {
@@ -46,7 +49,7 @@
 }
 
 .header .header-container nav ul li a {
-    color: black;
+    color: white;
 }
 
 
@@ -59,6 +62,7 @@
 .header .header-container .header-social-icons {
     display: flex;
     gap: 1rem;
+    color: white;
 }
 
 /* Hero Style */
@@ -68,7 +72,8 @@
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 60px);
+    height: calc(60vh - 20px);
+    color: white;
 }
 
 .header .hero h2 {
@@ -77,8 +82,17 @@
 
 .header .hero p {
     font-size: 1.2rem;
+    text-align: center;
+    padding: 0 5rem;
 }
-    
+
+.header .hero a {
+    font-weight: bold;
+    border: .2rem solid green;
+    padding: .5rem;
+    color: white;
+}
+
 
 
 main {
