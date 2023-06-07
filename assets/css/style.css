@@ -10,10 +10,13 @@
 
 
 .header {
-    background-color: #e8e8e8;
     height: 100vh;
+    font-weight: bold;
+    background-image: url("../images/pele-header4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
 
 .header .header-container {
     display: flex;
@@ -58,10 +61,25 @@
     gap: 1rem;
 }
 
-
-h1 {
-    font-size: 24px;
+/* Hero Style */
+.header .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
 }
+
+.header .hero h2 {
+    font-size: 4rem;
+}
+
+.header .hero p {
+    font-size: 1.2rem;
+}
+    
+
 
 main {
     padding: 20px;
@@ -83,4 +101,35 @@ ul {
 
 li {
     margin-bottom: 15px;
+}
+
+.child {
+    margin-top: 20px;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* Style for the supplementary info section */
+
+#supplementary-info {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+/* Style for the image containers */
+.image-container {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Style for the images */
+.image-container img {
+    max-width: 100%;
+    border-radius: 5px;
 }
