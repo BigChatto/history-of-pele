@@ -20,6 +20,10 @@
 
 }
 
+.header .hero blockquote {
+    font-style: italic;
+}
+
 .header .header-container {
     display: flex;
     align-items: center;
@@ -93,57 +97,30 @@
     color: white;
 }
 
+/* Header style ends */
 
 
-main {
-    padding: 20px;
+/* Home-About Style */
+
+.home-about .home-about-container {
+    display: flex;
+    align-items: center;
+    margin: 0 4rem;
+    gap: 2rem;
+
 }
 
-section {
-    margin-bottom: 30px;
+.home-about .home-about-container img {
+    border-radius: 1rem;
 }
 
-h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+.home-about .home-about-container .home-about-content h2 {
+    font-size: 3rem;
+
 }
 
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
+.home-about .home-about-container .home-about-content p {
+    font-size: 1.1rem;
+    padding: 1rem 0;
 
-li {
-    margin-bottom: 15px;
-}
-
-.child {
-    margin-top: 20px;
-    font-family: Helvetica;
-    font-size: 12px;
-    font-style: italic;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-
-/* Style for the supplementary info section */
-
-#supplementary-info {
-    margin: 20px;
-    padding: 20px;
-    background-color: #f8f8f8;
-    border-radius: 5px;
-}
-
-/* Style for the image containers */
-.image-container {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Style for the images */
-.image-container img {
-    max-width: 100%;
-    border-radius: 5px;
 }
