@@ -102,12 +102,16 @@
 
 /* Home-About Style */
 
+.home-about {
+    padding: 3rem 0;
+}
+
 .home-about .home-about-container {
     display: flex;
     align-items: center;
     margin: 0 4rem;
     gap: 2rem;
-
+    padding: 2rem 0;
 }
 
 .home-about .home-about-container img {
@@ -122,5 +126,37 @@
 .home-about .home-about-container .home-about-content p {
     font-size: 1.1rem;
     padding: 1rem 0;
+}
 
+/* Home about style ends */
+
+/* Home History style starts */
+
+.home-history-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    margin: 2rem 4rem;
+    gap: 1.5rem;
+}
+
+.home-history-container .home-history-content img {
+    height: 18rem;
+    width: 24rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.home-history-content {
+    width: 24rem;
+    background-color: grey;
+    /* padding: 2rem; */
+    border-radius: 0.5rem;
+}
+
+.home-history-container .home-history-content h2 {
+    padding: 2rem 2rem 1rem;
+}
+
+.home-history-container .home-history-content p {
+    padding: 0 2rem 2rem;
 }
