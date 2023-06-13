@@ -133,6 +133,12 @@
 
 /* Home History style starts */
 
+.legend-2 {
+    font-size: 3rem;
+    text-align: center;
+    color: green;
+}
+
 .home-history-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
@@ -171,8 +177,6 @@ footer {
     color: #fff;
     padding-top: 40px;
     border-top-left-radius: 5rem;
-    border-bottom-right-radius: 5rem;
-
 }
 
 .footer-content {
