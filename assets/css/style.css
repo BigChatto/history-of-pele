@@ -9,15 +9,18 @@
 /* Header styling */
 
 
-.header {
+.about-header {
+    background-color: #000;
+
+}
+
+.home-header {
     height: 100vh;
     font-weight: bold;
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/pele-header4.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .header .hero blockquote {
@@ -258,4 +261,41 @@ footer {
 .footer-menus li a:hover {
     color: white;
     border-bottom: .2rem solid green;
+}
+
+.about-hero {
+background-image: url("../images/muhammed-ali-pele.jpeg");
+background-position: center;
+background-size: cover;
+padding: 3rem 0; 
+}
+
+.about-hero h2 {
+ font-size: 3rem; 
+ color: white; 
+ padding: 0 4rem;
+
+}
+
+.about-content h2 {
+    font-size: 4rem; 
+    padding: 1rem; 
+}
+
+.about-container {
+    display: flex; 
+    margin: 2rem 7rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem; 
+    
+}
+
+.about-container .about-content img {
+    height: 25rem; 
+    
+}
+
+.about-container .about-content p {
+    font-size: 1.2rem; 
 }
