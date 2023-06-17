@@ -299,3 +299,80 @@ padding: 3rem 0;
 .about-container .about-content p {
     font-size: 1.2rem; 
 }
+
+/* Mission style starts */
+
+.mission {
+    padding: 2rem 0; 
+}
+
+.mission h2 {
+    text-align: center;
+    color: green;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+.mission .mission-content {
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #F0F0F0; 
+}
+
+.mission-content p {
+    margin: 0 5rem; 
+}
+
+.mission-content p:nth-child(1) {
+    padding-top: 2rem; 
+}
+
+.mission-content p:nth-child(2) {
+    padding: 2rem 0; 
+}
+/* Mission style ends */
+
+/* Goal style starts */
+
+.goal {
+    padding: 2rem 0; 
+}
+
+.goal h2 {
+    text-align: center;
+    color: green; 
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.goal-container  {
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    margin: 0 5rem; 
+}
+
+.goal-content img {
+    height: 20rem; 
+    width: 25rem; 
+}
+
+.goal .goal-content {
+    text-align: center;
+    font-size: 1.2rem;
+   
+}
+
+
+.goal-content p {
+    /* margin: 0 5rem;  */
+}
+
+.goal-content p:nth-child(1) {
+    padding-top: 2rem; 
+}
+
+.goal-content p:nth-child(2) {
+    padding: 2rem 0; 
+}
+
+/* Goal style ends */
