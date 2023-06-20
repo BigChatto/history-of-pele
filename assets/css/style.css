@@ -374,10 +374,6 @@ padding: 3rem 0;
 }
 
 
-.goal-content p {
-    /* margin: 0 5rem;  */
-}
-
 .goal-content p:nth-child(1) {
     padding-top: 2rem; 
 }
@@ -414,4 +410,57 @@ padding: 3rem 0;
     height: 20rem; 
     width: 20rem;
      
+}
+
+.career-event {
+    display: flex; 
+    flex-direction: column;
+    margin: 0 5rem; 
+}
+
+.career-event .career-santos-fc-content, .career-event .career-santos-national-team-content {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+    
+
+}
+
+.career-event .career-santos-fc-content img, .career-event .career-santos-national-team-content img {
+    height: 21.5rem; 
+    width: 16.5rem;
+    padding: 1rem; 
+}
+
+.career-event h2 {
+    font-size: 3rem;
+    color: green; 
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.career-event p {
+    font-size: 1.2rem;
+    color: #222; 
+    text-align: center;
+    padding: 1rem 0; 
+}
+
+.career-santos-fc-content .career-event-box, .career-santos-national-team-content .career-event-box {
+    background-color: rgb(177, 174, 174);
+    border-radius: .5rem;
+}
+
+.career-world-cup-content img, .career-retirement-content img {
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+     
+}
+
+.career-world-cup-content, .career-retirement-content {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+
 }
