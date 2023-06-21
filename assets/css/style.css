@@ -31,7 +31,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 
 .header .hero blockquote {
@@ -275,192 +275,232 @@ footer {
 }
 
 .about-hero {
-background-image: url("../images/muhammed-ali-pele.jpeg");
-background-position: center;
-background-size: cover;
-padding: 3rem 0; 
+    background-image: url("../images/muhammed-ali-pele.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 3rem 0;
 }
 
 .about-hero h2 {
- font-size: 3rem; 
- color: white; 
- padding: 0 4rem;
+    font-size: 3rem;
+    color: white;
+    padding: 0 4rem;
 
 }
 
+
+
 .about-content h2 {
-    font-size: 4rem; 
-    padding: 1rem; 
+    font-size: 4rem;
+    padding: 1rem;
 }
 
 .about-container {
-    display: flex; 
+    display: flex;
     margin: 2rem 7rem;
     align-items: center;
     justify-content: space-between;
-    gap: 3rem; 
-    
+    gap: 3rem;
+
 }
 
 .about-container .about-content img {
-    height: 25rem; 
-    
+    height: 25rem;
+
 }
 
 .about-container .about-content p {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
 }
 
 /* Mission style starts */
 
 .mission {
-    padding: 2rem 0; 
+    padding: 2rem 0;
 }
 
 .mission h2 {
     text-align: center;
-    color: green; 
+    color: green;
     font-size: 3rem;
     padding-bottom: 1rem;
 }
+
 .mission .mission-content {
     text-align: center;
     font-size: 1.2rem;
-    background-color: #F0F0F0; 
+    background-color: #F0F0F0;
 }
 
 .mission-content p {
-    margin: 0 5rem; 
+    margin: 0 5rem;
 }
 
 .mission-content p:nth-child(1) {
-    padding-top: 2rem; 
+    padding-top: 2rem;
 }
 
 .mission-content p:nth-child(2) {
-    padding: 2rem 0; 
+    padding: 2rem 0;
 }
+
 /* Mission style ends */
 
 /* Goal style starts */
 
 .goal {
-    padding: 2rem 0; 
+    padding: 2rem 0;
 }
 
 .goal h2 {
     text-align: center;
-    color: green; 
+    color: green;
     font-size: 3rem;
     padding-bottom: 1rem;
 }
 
-.goal-container  {
+.goal-container {
     display: grid;
     /* align-items: center; */
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-    margin: 0 5rem 0 8rem; 
+    margin: 0 5rem 0 8rem;
 }
 
 .goal-content img {
-    height: 20rem; 
-    width: 25rem; 
+    height: 20rem;
+    width: 25rem;
 }
 
 .goal .goal-content {
     text-align: center;
     font-size: 1.2rem;
-   
+
 }
 
 
 .goal-content p:nth-child(1) {
-    padding-top: 2rem; 
+    padding-top: 2rem;
 }
 
 .goal-content p:nth-child(2) {
-    padding: 2rem 0; 
+    padding: 2rem 0;
 }
 
 /* Goal style ends */
 
- /* highlight styles begin  */
 
- .about-highlight {
-    padding: 2rem 0; 
- }
 
- .about-highlight h2 {
-    font-size: 3rem; 
+/* Career styles begins */
+
+.career-page h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
     text-align: center;
-    text-transform: capitalize;
-    padding: 1rem 0 2rem; 
     color: green;
- }
-
-
-.about-highlight-container {
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    margin: 0 5rem; 
-    gap: 2rem; 
-}
-
-.about-highlight-content img {
-    height: 20rem; 
-    width: 20rem;
-     
+    padding: 4rem 0 2rem;
 }
 
 .career-event {
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    margin: 0 5rem; 
+    margin: 0 5rem;
 }
 
-.career-event .career-santos-fc-content, .career-event .career-santos-national-team-content {
-    display: grid; 
+.career-event .career-santos-fc-content,
+.career-event .career-santos-national-team-content {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 2rem;
-    
+    margin: 1rem 0 3rem;
 
 }
 
-.career-event .career-santos-fc-content img, .career-event .career-santos-national-team-content img {
-    height: 21.5rem; 
+.career-event .career-santos-fc-content img,
+.career-event .career-santos-national-team-content img {
+    height: 21.5rem;
     width: 16.5rem;
-    padding: 1rem; 
+    padding: 1rem;
 }
 
 .career-event h2 {
     font-size: 3rem;
-    color: green; 
+    color: green;
     text-align: center;
     padding-top: 2rem;
+
 }
+
 
 .career-event p {
     font-size: 1.2rem;
-    color: #222; 
+    color: #222;
     text-align: center;
-    padding: 1rem 0; 
+    padding: 1.5rem 0;
 }
 
-.career-santos-fc-content .career-event-box, .career-santos-national-team-content .career-event-box {
+.career-santos-fc-content .career-event-box,
+.career-santos-national-team-content .career-event-box {
     background-color: rgb(177, 174, 174);
     border-radius: .5rem;
 }
 
-.career-world-cup-content img, .career-retirement-content img {
+.career-world-cup-content img,
+.career-retirement-content img {
     height: 17rem;
     width: 17rem;
     border-radius: 50%;
-     
+
 }
 
-.career-world-cup-content, .career-retirement-content {
-    display: grid; 
+.career-world-cup-content,
+.career-retirement-content {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 2rem;
+    margin: 1rem 0 3rem;
+
+}
+
+/* Media styles begin */
+
+.media-hero {
+    background-image: url("../images/muhammed-ali-pele.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 3rem 0;
+}
+
+.media-hero h2 {
+    font-size: 3rem;
+    color: white;
+    padding: 0 4rem;
+
+}
+
+/* highlight styles begin  */
+
+.media-highlight {
+    padding: 2rem 0;
+}
+
+.media-highlight h2 {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1rem 0 2rem;
+    color: green;
+}
+
+
+.media-highlight-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    margin: 0 5rem;
+    gap: 2rem;
+}
+
+.media-highlight-content img {
+    height: 20rem;
+    width: 20rem;
 
 }
