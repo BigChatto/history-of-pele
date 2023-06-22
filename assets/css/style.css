@@ -502,5 +502,49 @@ footer {
 .media-highlight-content img {
     height: 20rem;
     width: 20rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.media-quotes h2 {
+    font-size: 3rem;
+    color: green;
+    text-align: center;
+    padding: 3rem 0 2rem;
 
 }
+
+.media-quotes .media-quote-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem; 
+    margin: 0 4rem; 
+}
+
+.media-quotes .media-quote-container .media-quote-content {
+    background-color: rgb(177, 174, 174);
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1.5rem; 
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.media-quotes .media-quote-container .media-quote-content p {
+font-size: 1.2rem;
+text-align: center;
+padding: .3rem 0; 
+
+}
+
+.media-quotes .media-quote-container .media-quote-content p:nth-child(even) {
+    font-size: 1rem;
+    color: green;
+    text-align: right;
+    text-transform: capitalize;
+    font-style: italic;
+
+}
+
