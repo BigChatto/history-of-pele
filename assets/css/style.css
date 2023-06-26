@@ -553,7 +553,7 @@ padding: .3rem 0;
 
 
 .video-highlight {
-    padding: 2rem 0;
+    padding-top: 2rem;
 }
 
 .video-highlight h2 {
@@ -566,15 +566,36 @@ padding: .3rem 0;
 
 
 .video-highlight-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
     margin: 0 5rem;
-    gap: 0.5rem;
+    gap: 1rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 4rem; 
+    
 }
 
-.video-highlight-content {
-    height: 20rem;
-    width: 20rem;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+.documentary {
+    padding: 4rem 0 2rem; 
+
+}
+
+.documentary iframe {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0; 
+    flex-direction: column; 
+    margin: 0 auto;
+    
+}
+
+.documentary h2 {
+    font-size: 3rem;
+    color: green;
+    text-align: center;
+    
 }
