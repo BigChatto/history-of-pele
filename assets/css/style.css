@@ -80,7 +80,16 @@
 .header .header-container .header-social-icons {
     display: flex;
     gap: 1rem;
+    
+}
+
+.header .header-container .header-social-icons li a {
     color: white;
+    font-size: 1.2rem;
+}
+
+.header .header-container .header-social-icons li a:hover {
+    color: green; 
 }
 
 /* Hero Style */
@@ -599,3 +608,66 @@ padding: .3rem 0;
     text-align: center;
     
 }
+
+.contact {
+    margin-bottom: 2rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    background-color: #a3a3a3;
+    padding: 2rem 1rem; 
+    max-width: 37rem;
+    margin: 0 auto;
+    background: #a3a3a3; 
+
+}
+
+.form-group {
+    display: flex;
+    margin: 0 1rem 1rem;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.form-group label {
+   margin-bottom: .5rem;
+}
+
+.form-group input {
+    width: 95%; 
+    display: flex; 
+    align-items: center;
+    height: 1rem; 
+    outline: none;
+    border: none; 
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+
+}
+
+.form-group textarea {
+    width: 95%; 
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+.form-group button {
+    padding: .5rem; 
+    border: none; 
+    cursor: pointer;
+    font-size: 1.3rem;
+    color:#F0F0F0;
+    background-color: #808080be;
+    border-radius: .5rem;
+    margin-bottom: 0;
+}
+
+.contact h2 {
+    font-size: 3rem;
+    color: #008000; 
+    text-align: center; 
+    padding: 2rem 0; 
+}
+
