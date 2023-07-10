@@ -1,99 +1,122 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     text-decoration: none;
     list-style-type: none;
-}
-
-/* Header styling */
-
-
-.about-header {
+  }
+  
+  /* Header styling */
+  
+  .about-header {
     background-color: #000;
-
-}
-
-.home-header {
+  }
+  
+  .home-header {
     height: 100vh;
     font-weight: bold;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/pele-header4.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../images/pele-header4.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-
-.career-header {
+  }
+  
+  .career-header {
     height: 100vh;
     font-weight: bold;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/career-header-pele-1424x1068.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../images/career-header-pele-1424x1068.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-}
-
-.header .hero blockquote {
+  }
+  
+  .header .hero blockquote {
     font-style: italic;
-}
-
-.header .header-container {
+  }
+  
+  .header .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem 4rem;
-
-}
-
-.header .header-container .logo h2 {
+    padding: 2rem 4rem;
+  }
+  
+  .header .header-container .logo h2 {
     font-size: 3rem;
     color: white;
-}
-
-.header .header-container nav ul {
+  }
+  
+  .header .header-container nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 4rem;
-}
-
-.header .header-container nav ul li {
+  }
+  
+  .header .header-container nav ul li {
     font-size: 1.2rem;
-}
-
-.header .header-container nav ul .active {
+  }
+  
+  .header .header-container nav ul .active {
     color: green;
-}
-
-.header .header-container nav ul li a {
+  }
+  
+  .header .header-container nav ul li a {
     color: white;
-}
-
-
-.header .header-container nav ul li a:hover {
+  }
+  
+  .header .header-container nav ul li a:hover {
     color: green;
     border-bottom: 0.2rem solid green;
-    padding-bottom: .1rem;
-}
-
-.header .header-container .header-social-icons {
+    padding-bottom: 0.1rem;
+  }
+  
+  .header .header-container .header-social-icons {
     display: flex;
     gap: 1rem;
-    
-}
-
-.header .header-container .header-social-icons li a {
+  }
+  
+  .header .header-container .header-social-icons li a {
     color: white;
     font-size: 1.2rem;
-}
-
-.header .header-container .header-social-icons li a:hover {
-    color: green; 
-}
-
-/* Hero Style */
-.header .hero {
+  }
+  
+  .header .header-container .header-social-icons li a:hover {
+    color: green;
+  }
+  
+  /* dropdown menu */
+  .dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 6.5rem;
+    width: 300px;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(1rem);
+    transition: height 0, 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
+    
+  }
+  
+  .dropdown_menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dropdown_menu li a {
+    font-size: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Hero Style */
+  .header .hero {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -101,573 +124,533 @@
     justify-content: center;
     height: calc(60vh - 20px);
     color: white;
-}
-
-.header .hero h2 {
+  }
+  
+  .header .hero h2 {
     font-size: 4rem;
-}
-
-.header .hero p {
+  }
+  
+  .header .hero p {
     font-size: 1.2rem;
     text-align: center;
     padding: 0 5rem;
-}
-
-.header .hero a {
+  }
+  
+  .header .hero a {
     font-weight: bold;
-    border: .2rem solid green;
-    padding: .5rem;
+    border: 0.2rem solid green;
+    padding: 0.5rem;
     color: white;
-}
-
-/* Header style ends */
-
-
-/* Home-About Style */
-
-.home-about {
+  }
+  
+  /* Header style ends */
+  
+  /* Home-About Style */
+  
+  .home-about {
     padding: 3rem 0;
-}
-
-.home-about .home-about-container {
+  }
+  
+  .home-about .home-about-container {
     display: flex;
     align-items: center;
     margin: 0 4rem;
     gap: 2rem;
     padding: 2rem 0;
-}
-
-.home-about .home-about-container img {
+  }
+  
+  .home-about .home-about-container img {
     border-radius: 1rem;
-
-}
-
-.home-about .home-about-container .home-about-content h2 {
+  }
+  
+  .home-about .home-about-container .home-about-content h2 {
     font-size: 3rem;
-
-}
-
-.home-about .home-about-container .home-about-content p {
+  }
+  
+  .home-about .home-about-container .home-about-content p {
     font-size: 1.1rem;
     padding: 1rem 0;
-}
-
-/* Home about style ends */
-
-/* Home History style starts */
-
-.legend-2 {
+  }
+  
+  /* Home about style ends */
+  
+  /* Home History style starts */
+  
+  .legend-2 {
     font-size: 3rem;
     text-align: center;
     color: green;
-}
-
-.home-history-container {
+  }
+  
+  .home-history-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     margin: 2rem 4rem;
     gap: 1.5rem;
-}
-
-.home-history-container .home-history-content img {
+  }
+  
+  .home-history-container .home-history-content img {
     height: 18rem;
-    width: 24rem;
+    width: 100%;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
-}
-
-.home-history-content {
-    width: 24rem;
+  }
+  
+  .home-history-content {
+    width: 100%;
     background-color: grey;
-    /* padding: 2rem; */
     border-radius: 0.5rem;
-}
-
-.home-history-container .home-history-content h2 {
+  }
+  
+  .home-history-container .home-history-content h2 {
     padding: 2rem 2rem 1rem;
-}
-
-.home-history-container .home-history-content p {
+  }
+  
+  .home-history-container .home-history-content p {
     padding: 0 2rem 2rem;
-}
-
-/* Footer styling begins here */
-
-footer {
+  }
+  
+  /* Footer styling begins here */
+  
+  footer {
     background-color: #111;
     height: auto;
     overflow: hidden;
     color: #fff;
     padding-top: 40px;
     border-top-left-radius: 5rem;
-}
-
-.footer-content {
+  }
+  
+  .footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-
-.footer-content h2 {
+  }
+  
+  .footer-content h2 {
     font-size: 3rem;
     text-transform: uppercase;
-}
-
-.footer-content p {
+  }
+  
+  .footer-content p {
     max-width: 1000px;
     font-size: 1.1rem;
     margin: 10px auto;
-
-}
-
-.footer-socials {
+  }
+  
+  .footer-socials {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
-}
-
-.footer-socials li {
+  }
+  
+  .footer-socials li {
     margin: 0 10px;
-}
-
-.footer-socials li a {
+  }
+  
+  .footer-socials li a {
     color: white;
-    border: .1rem solid white;
+    border: 0.1rem solid white;
     border-radius: 50%;
     padding: 5px;
-}
-
-.footer-socials li a i {
+  }
+  
+  .footer-socials li a i {
     font-size: 1.1rem;
-    transition: color .4s ease;
-}
-
-.footer-socials li a:hover i {
+    transition: color 0.4s ease;
+  }
+  
+  .footer-socials li a:hover i {
     color: green;
-}
-
-.footer-bottom {
+  }
+  
+  .footer-bottom {
     background-color: #000;
     padding: 20px 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.footer-bottom p {
+  }
+  
+  .footer-bottom p {
     font-size: 1.2rem;
     word-spacing: 2px;
     text-transform: capitalize;
-}
-
-.footer-bottom p a {
+  }
+  
+  .footer-bottom p a {
     color: green;
     font-size: 1.5rem;
-
-}
-
-.footer-menus {
+  }
+  
+  .footer-menus {
     display: flex;
     gap: 2rem;
-
-}
-
-.footer-menus li a {
+  }
+  
+  .footer-menus li a {
     color: green;
-}
-
-.footer-menus li a:hover {
+  }
+  
+  .footer-menus li a:hover {
     color: white;
-    border-bottom: .2rem solid green;
-}
-
-.about-hero {
+    border-bottom: 0.2rem solid green;
+  }
+  
+  .about-hero {
     background-image: url("../images/muhammed-ali-pele.jpeg");
     background-position: center;
     background-size: cover;
     padding: 3rem 0;
-}
-
-.about-hero h2 {
+  }
+  
+  .about-hero h2 {
     font-size: 3rem;
     color: white;
     padding: 0 4rem;
-
-}
-
-
-
-.about-content h2 {
+  }
+  
+  .about-content h2 {
     font-size: 4rem;
     padding: 1rem;
-}
-
-.about-container {
+  }
+  
+  .about-container {
     display: flex;
     margin: 2rem 7rem;
     align-items: center;
     justify-content: space-between;
     gap: 3rem;
-
-}
-
-.about-container .about-content img {
+  }
+  
+  .about-container .about-content img {
     height: 25rem;
-
-}
-
-.about-container .about-content p {
+  }
+  
+  .about-container .about-content p {
     font-size: 1.2rem;
-}
-
-/* Mission style starts */
-
-.mission {
+  }
+  
+  /* Mission style starts */
+  
+  .mission {
     padding: 2rem 0;
-}
-
-.mission h2 {
+  }
+  
+  .mission h2 {
     text-align: center;
     color: green;
     font-size: 3rem;
     padding-bottom: 1rem;
-}
-
-.mission .mission-content {
+  }
+  
+  .mission .mission-content {
     text-align: center;
     font-size: 1.2rem;
-    background-color: #F0F0F0;
-}
-
-.mission-content p {
+    background-color: #f0f0f0;
+  }
+  
+  .mission-content p {
     margin: 0 5rem;
-}
-
-.mission-content p:nth-child(1) {
+  }
+  
+  .mission-content p:nth-child(1) {
     padding-top: 2rem;
-}
-
-.mission-content p:nth-child(2) {
+  }
+  
+  .mission-content p:nth-child(2) {
     padding: 2rem 0;
-}
-
-/* Mission style ends */
-
-/* Goal style starts */
-
-.goal {
+  }
+  
+  /* Mission style ends */
+  
+  /* Goal style starts */
+  
+  .goal {
     padding: 2rem 0;
-}
-
-.goal h2 {
+  }
+  
+  .goal h2 {
     text-align: center;
     color: green;
     font-size: 3rem;
     padding-bottom: 1rem;
-}
-
-.goal-container {
+  }
+  
+  .goal-container {
     display: grid;
-    /* align-items: center; */
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
     margin: 0 5rem 0 8rem;
-}
-
-.goal-content img {
+  }
+  
+  .goal-content img {
     height: 20rem;
     width: 25rem;
-}
-
-.goal .goal-content {
+  }
+  
+  .goal .goal-content {
     text-align: center;
     font-size: 1.2rem;
-
-}
-
-
-.goal-content p:nth-child(1) {
+  }
+  
+  .goal-content p:nth-child(1) {
     padding-top: 2rem;
-}
-
-.goal-content p:nth-child(2) {
+  }
+  
+  .goal-content p:nth-child(2) {
     padding: 2rem 0;
-}
-
-/* Goal style ends */
-
-
-
-/* Career styles begins */
-
-.career-page h1 {
+  }
+  
+  /* Goal style ends */
+  
+  /* Career styles begins */
+  .hero p:nth-child(odd) {
+    display: none;
+  }
+  .career-page h1 {
     font-size: 5rem;
     text-transform: uppercase;
     text-align: center;
     color: green;
     padding: 4rem 0 2rem;
-}
-
-.career-event {
+  }
+  
+  .career-event {
     display: flex;
     flex-direction: column;
     margin: 0 5rem;
-}
-
-.career-event .career-santos-fc-content,
-.career-event .career-santos-national-team-content {
+  }
+  
+  .career-event .career-santos-fc-content,
+  .career-event .career-santos-national-team-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 2rem;
+    gap: 3rem;
+    justify-items: center;
     margin: 1rem 0 3rem;
-
-}
-
-.career-event .career-santos-fc-content img,
-.career-event .career-santos-national-team-content img {
+  }
+  
+  .career-event .career-santos-fc-content img,
+  .career-event .career-santos-national-team-content img {
     height: 21.5rem;
-    width: 16.5rem;
     padding: 1rem;
-}
-
-.career-event h2 {
+    background-color: #a3a3a3;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .career-event h2 {
     font-size: 3rem;
     color: green;
     text-align: center;
     padding-top: 2rem;
-
-}
-
-
-.career-event p {
+  }
+  
+  .career-event p {
     font-size: 1.2rem;
     color: #222;
     text-align: center;
     padding: 1.5rem 0;
-}
-
-.career-santos-fc-content .career-event-box,
-.career-santos-national-team-content .career-event-box {
-    background-color: rgb(177, 174, 174);
-    border-radius: .5rem;
-}
-
-.career-world-cup-content img,
-.career-retirement-content img {
+  }
+  
+  .career-world-cup-content img,
+  .career-retirement-content img {
     height: 17rem;
     width: 17rem;
     border-radius: 50%;
-
-}
-
-.career-world-cup-content,
-.career-retirement-content {
+  }
+  
+  .career-world-cup-content,
+  .career-retirement-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 2rem;
     margin: 1rem 0 3rem;
-
-}
-
-/* Media styles begin */
-
-.media-hero {
+  }
+  
+  /* Media styles begin */
+  
+  .media-hero {
     background-image: url("../images/muhammed-ali-pele.jpeg");
     background-position: center;
     background-size: cover;
     padding: 3rem 0;
-}
-
-.media-hero h2 {
+  }
+  
+  .media-hero h2 {
     font-size: 3rem;
     color: white;
     padding: 0 4rem;
-
-}
-
-/* highlight styles begin  */
-
-.media-highlight {
+  }
+  
+  /* highlight styles begin  */
+  
+  .media-highlight {
     padding: 2rem 0;
-}
-
-.media-highlight h2 {
+  }
+  
+  .media-highlight h2 {
     font-size: 3rem;
     text-align: center;
     text-transform: capitalize;
     padding: 1rem 0 2rem;
     color: green;
-}
-
-
-.media-highlight-container {
+  }
+  
+  .media-highlight-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     margin: 0 5rem;
-    gap: 2rem;
-}
-
-.media-highlight-content img {
+    gap: 1.5rem;
+  }
+  
+  .media-highlight-content img {
     height: 20rem;
-    width: 20rem;
+    width: 17.5rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
-}
-
-
-
-.media-quotes h2 {
+  }
+  
+  .media-quotes h2 {
     font-size: 3rem;
     color: green;
     text-align: center;
     padding: 3rem 0 2rem;
-
-}
-
-.media-quotes .media-quote-container {
+  }
+  
+  .media-quotes .media-quote-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 2rem; 
-    margin: 0 4rem; 
-}
-
-
-.media-quotes .media-quote-container .media-quote-content {
+    justify-items: center;
+    gap: 2rem;
+    margin: 0 4rem;
+  }
+  
+  .media-quotes .media-quote-container .media-quote-content {
     background-color: rgb(177, 174, 174);
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    padding: 1.5rem; 
-    display: flex; 
+    padding: 1.5rem;
+    display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.media-quotes .media-quote-container .media-quote-content p {
-font-size: 1.2rem;
-text-align: center;
-padding: .3rem 0; 
-
-}
-
-.media-quotes .media-quote-container .media-quote-content p:nth-child(even) {
+  }
+  
+  .media-quotes .media-quote-container .media-quote-content p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.3rem 0;
+  }
+  
+  .media-quotes .media-quote-container .media-quote-content p:nth-child(even) {
     font-size: 1rem;
     color: green;
     text-align: right;
     text-transform: capitalize;
     font-style: italic;
-
-}
-
-
-.video-highlight {
+  }
+  
+  .video-highlight {
     padding-top: 2rem;
-}
-
-.video-highlight h2 {
+  }
+  
+  .video-highlight h2 {
     font-size: 3rem;
     text-align: center;
     text-transform: capitalize;
     padding: 1rem 0 2rem;
     color: green;
-}
-
-
-.video-highlight-container {
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
-    margin: 0 5rem;
-    gap: 1rem; */
+  }
+  
+  .video-highlight-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 4rem; 
-    
-}
-
-.documentary {
-    padding: 4rem 0 2rem; 
-
-}
-
-.documentary iframe {
-    display: flex; 
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0; 
-    flex-direction: column; 
+    gap: 2rem;
+    margin: 0 4rem;
+  }
+  
+  .documentary {
+    padding: 4rem 0 2rem;
+  }
+  
+  .documentary iframe {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    flex-direction: column;
     margin: 0 auto;
-    
-}
-
-.documentary h2 {
+  }
+  
+  .documentary h2 {
     font-size: 3rem;
     color: green;
     text-align: center;
-    
-}
-
-.contact {
+  }
+  
+  .contact {
     margin-bottom: 2rem;
-}
-
-.contact form {
+  }
+  
+  .contact form {
     display: flex;
     flex-direction: column;
     background-color: #a3a3a3;
-    padding: 2rem 1rem; 
+    padding: 2rem 1rem;
     max-width: 37rem;
     margin: 0 auto;
-    background: #a3a3a3; 
-
-}
-
-.form-group {
+    background: #a3a3a3;
+  }
+  
+  .form-group {
     display: flex;
     margin: 0 1rem 1rem;
     flex-direction: column;
-    /* align-items: center; */
-}
-
-.form-group label {
-   margin-bottom: .5rem;
-}
-
-.form-group input {
-    width: 95%; 
-    display: flex; 
+  }
+  
+  .form-group label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input {
+    width: 95%;
+    display: flex;
     align-items: center;
-    height: 1rem; 
+    height: 1rem;
     outline: none;
-    border: none; 
-    padding: .5rem 1rem;
-    border-radius: .5rem;
-
-}
-
-.form-group textarea {
-    width: 95%; 
-    padding: .5rem 1rem;
-    border-radius: .5rem;
-}
-
-.form-group button {
-    padding: .5rem; 
-    border: none; 
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .form-group textarea {
+    width: 95%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .form-group button {
+    padding: 0.5rem;
+    border: none;
     cursor: pointer;
     font-size: 1.3rem;
-    color:#F0F0F0;
+    color: #f0f0f0;
     background-color: #808080be;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     margin-bottom: 0;
-}
-
-.contact h2 {
+  }
+  
+  .contact h2 {
     font-size: 3rem;
-    color: #008000; 
-    text-align: center; 
-    padding: 2rem 0; 
-}
-
+    color: #008000;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
