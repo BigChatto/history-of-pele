@@ -52,7 +52,7 @@ Feel free to explore the website, read about Pelé's journey, and enjoy the cont
 
 This is the README for the home page of the Pelé - Football Icon website. The home page provides an introduction to Pelé's early life and showcases his achievements and impact on the world of football.
 
-## Table of Contents
+ Table of Contents
 
 - [Introduction](#introduction)
 - [Header](#header)
