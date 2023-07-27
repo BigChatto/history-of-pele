@@ -422,8 +422,7 @@
     margin: 0 5rem;
   }
   
-  .career-event .career-santos-fc-content,
-  .career-event .career-santos-national-team-content {
+  .career-event .career-santos-fc-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 3rem;
@@ -431,7 +430,22 @@
     margin: 1rem 0 3rem;
   }
   
-  .career-event .career-santos-fc-content img,
+  .career-event .career-santos-fc-content img {
+    height: 21.5rem;
+    padding: 1rem;
+    background-color: #a3a3a3;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+
+  .career-event .career-santos-national-team-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 0.5rem;
+    justify-items: center;
+    margin: 1rem 0 3rem;
+  }
+  
   .career-event .career-santos-national-team-content img {
     height: 21.5rem;
     padding: 1rem;
@@ -454,14 +468,25 @@
     padding: 1.5rem 0;
   }
   
-  .career-world-cup-content img,
-  .career-retirement-content img {
-    height: 17rem;
-    width: 17rem;
+  .career-world-cup-content img {
+    height: 25rem;
+    width: 25rem;
     border-radius: 50%;
   }
   
-  .career-world-cup-content,
+  .career-world-cup-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 0.5rem;
+    margin: 1rem 0 3rem;
+  }
+
+  .career-retirement-content img {
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+  }
+  
   .career-retirement-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -499,15 +524,16 @@
   }
   
   .media-highlight-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 5rem;
     gap: 1.5rem;
   }
   
   .media-highlight-content img {
-    height: 20rem;
-    width: 17.5rem;
+    height: auto;
+    width: 100%;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
   }
@@ -613,11 +639,10 @@
   .contact form {
     display: flex;
     flex-direction: column;
-    background-color: #a3a3a3;
     padding: 2rem 1rem;
     max-width: 37rem;
     margin: 0 auto;
-    background: #a3a3a3;
+    background: black;
   }
   
   .form-group {
@@ -628,6 +653,7 @@
   
   .form-group label {
     margin-bottom: 0.5rem;
+    color: white;
   }
   
   .form-group input {
@@ -653,7 +679,7 @@
     cursor: pointer;
     font-size: 1.3rem;
     color: #f0f0f0;
-    background-color: #808080be;
+    background-color: green;
     border-radius: 0.5rem;
     margin-bottom: 0;
   }
