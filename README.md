@@ -5,8 +5,6 @@
 This is the comprehensive README for the Pelé - Football Icon website. The website is composed of multiple pages.
 Pelé's rich history and extraordinary skills which has left a lasting impact on the world of football.Widely regarded as one of the greatest footballers of all time.
 
-![index-readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/a138634d-60ad-4abc-9c42-58b9896564e5)
-
 ## Table of Contents
 
 The Pelé - Football Icon website is dedicated to celebrating the life and achievements of Pelé, one of the greatest football players of all time. The website provides information about Pelé's early life, career, accomplishments, and impact on the world of football. It features a visually appealing design and user-friendly navigation.
@@ -59,6 +57,7 @@ This is the README for the home page of the Pelé - Football Icon website. The h
 ## Introduction
 
 The home page of the Pelé - Football Icon website serves as the landing page for visitors. It provides a brief overview of Pelé's early life and career, enticing users to explore the website further.
+![index-readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/a138634d-60ad-4abc-9c42-58b9896564e5)
 
 ## Header
 
@@ -68,12 +67,16 @@ The header section contains the logo, navigation menu, and social media icons.
 - Navigation Menu: The navigation menu allows users to navigate to different pages of the website, including the home, about, career, and media pages.
 - Social Media Icons: The social media icons provide links to Pelé's official accounts on Facebook, Instagram, and Twitter.
 
+![header social-icons](https://github.com/BigChatto/history-of-pele/assets/111284905/2f974f04-fe1f-4b76-81d2-eeb3eaf8a6e4)
+
 ## About Section
 
 The about section provides a summary of Pelé's life and career, highlighting his achievements and impact.
 
 - Image: An image of the 1958 World Cup is displayed, adding visual appeal to the section.
 - Content: The content describes Pelé as a legendary football player widely considered one of the greatest of all time. It emphasizes his extraordinary skills, prolific goal-scoring, and captivating personality. It also mentions his success at both the club level with Santos FC and the international level with the Brazilian national team. Pelé's influence on the popularity of football worldwide and his inspiration to players and fans are highlighted.
+
+  ![About-readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/78bf4155-e0a9-4a27-a839-939fc96ba67f)
 
 ## Journey of Pelé Section
 
@@ -89,6 +92,8 @@ The journey of Pelé section presents a timeline of significant events and miles
 - Injury and Comeback: This subsection briefly mentions Pelé's injury setback during the 1962 World Cup, which forced him to miss the remainder of the tournament and affected his aspirations of winning a second World Cup.
 - Retirement and Legacy: This subsection notes Pelé's retirement from professional football in 1977, highlighting his remarkable legacy and his ongoing inspiration for future generations of players and fans.
 
+![the-journey-of-pele](https://github.com/BigChatto/history-of-pele/assets/111284905/5238980d-c69c-4022-81d9-8dacd65d4710)
+
 ## Footer
 
 The footer section provides additional information about Pelé and includes links to his official social media accounts.
@@ -97,6 +102,8 @@ The footer section provides additional information about Pelé and includes link
 - Social Media Icons: The social media icons in the footer provide links to Pelé's official accounts on Facebook, Instagram, and Twitter.
 - Copyright Information: The footer includes copyright information, indicating that the content belongs to Pelé.
 - Footer Menu: The footer menu displays links to the home, about, career, and media pages, allowing users to easily navigate through the website.
+
+  ![Footer ReadMe](https://github.com/BigChatto/history-of-pele/assets/111284905/61b82b4c-06c6-47ef-a4bf-b9fe21a441ca)
 
 Feel free to explore the home page of the Pelé - Football Icon website to learn more about Pelé's early life and his journey as a football legend.
 
@@ -265,6 +272,8 @@ The photos section showcases a gallery of photos related to Pelé.
 - Heading: The heading displays the title "Photos Gallery."
 - Photos: Multiple photos are displayed, each within a media-highlight-content container.
 
+![media readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/156d0ca7-c989-44ab-b0ec-56a709418643)
+
 
 ## Documentary Section
 
@@ -272,6 +281,8 @@ The documentary section includes a documentary video about Pelé.
 
 - Heading: The heading displays the title "Pele's Documentary."
 - Video: The documentary video is embedded within an iframe element that embeds the YouTube video player.
+
+  ![documentary-pele](https://github.com/BigChatto/history-of-pele/assets/111284905/42d33439-526c-4025-a59e-7fd6c5ac13db)
 
 ## Footer
 
