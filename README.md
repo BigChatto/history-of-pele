@@ -4,7 +4,7 @@
 
 This is the comprehensive README for the Pelé - Football Icon website. The website is composed of multiple pages.
 Pelé's rich history and extraordinary skills which has left a lasting impact on the world of football.Widely regarded as one of the greatest footballers of all time.
-
+![index-readMe](./assets/images/index-readMe.png)
 
 ## Table of Contents
 
