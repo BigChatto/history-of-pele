@@ -1,6 +1,4 @@
-
 # Pelé - Football Icon Website
-
 
 This is the comprehensive README for the Pelé - Football Icon website. The website is composed of multiple pages.
 Pelé's rich history and extraordinary skills which has left a lasting impact on the world of football.Widely regarded as one of the greatest footballers of all time.
@@ -153,6 +151,8 @@ The mission section outlines the purpose of the website and its goals.
 The goal section elaborates on the objectives of the website.
 
 - Content: The content explains that the goal of the website is to provide a comprehensive exploration of Pelé's history, bringing his remarkable story to life for audiences worldwide. The website aims to achieve this through meticulously researched content, captivating visuals, and engaging storytelling. The goal is to delve into the goals and aspirations that fueled Pelé's journey to greatness. The website celebrates Pelé's exceptional skills, unmatched achievements, and significant impact on the sport of football. By doing so, it aims to inspire and instill a deep appreciation for Pelé's historical significance, ensuring that his legacy as a football icon endures for generations to come.
+  
+![Goal-section](https://github.com/BigChatto/history-of-pele/assets/111284905/0f72d6c1-8a94-4114-92c6-003d1e2abb75)
 
 ## Contact Section
 
@@ -160,6 +160,9 @@ The contact section provides a form for users to get in touch with the website a
 
 - Form: The form includes fields for the user's full name, email address, and a message. The user is required to fill in these fields to submit the form.
 - Subscribe Button: The form also includes a "Subscribe" button that submits the form when clicked.
+  
+![contact-us-ReadMe](https://github.com/BigChatto/history-of-pele/assets/111284905/13ea72b0-283a-494a-9e1d-d9b0833a72ee)
+
 
 ## Footer
 
@@ -261,6 +264,7 @@ The hero section features a prominent heading indicating the current page as "Me
 ## Quotes Section
 
 The quotes section presents a collection of inspiring quotes by Pelé.
+![pele-quotes](https://github.com/BigChatto/history-of-pele/assets/111284905/6004fc02-40a3-479c-aade-c394c66a9a2b)
 
 - Heading: The heading displays the title "Pele's Quotes."
 - Quotes: Multiple quotes are displayed, each with a quote content and the name "Pele" attributed to it.
