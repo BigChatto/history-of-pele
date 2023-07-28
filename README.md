@@ -279,6 +279,29 @@ The photos section showcases a gallery of photos related to Pelé.
 ![media readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/156d0ca7-c989-44ab-b0ec-56a709418643)
 
 
+IMAGE SOURCE 
+
+READ ME 
+1. Images from FIFA.Com webpage , the guardian.com 
+2. Video from bbc sport 
+3. Remezcla.com
+4. Insert screenshots of the finished project in README 
+5. www.mindful.org , www.greatergood.berkeley.edu. ,  www.headspace.com,  www.mindfulnessexercises.com
+6. Thesun.co.uk 
+7. Twitter.com 
+8. people.com 
+9. bbc.com 
+10. https://youtu.be/qhPhSfcLJLs 
+11. theguardian.com
+12. thadailystar.net 
+13. marca.com 
+14. Dailymail.co.uk 
+15. Dailysabah.com
+16. Insider.com 
+17. Goodfon.com
+18. Marca.com
+19. Sports.ndtv.com
+
 ## Documentary Section
 
 The documentary section includes a documentary video about Pelé.
