@@ -1,17 +1,12 @@
 
 # Pelé - Football Icon Website
 
-This is the comprehensive README for the Pelé - Football Icon website. The website is composed of multiple pages, each with its own README section.
+
+This is the comprehensive README for the Pelé - Football Icon website. The website is composed of multiple pages.
+Pelé's rich history and extraordinary skills which has left a lasting impact on the world of football.Widely regarded as one of the greatest footballers of all time.
+
 
 ## Table of Contents
-
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
 
 The Pelé - Football Icon website is dedicated to celebrating the life and achievements of Pelé, one of the greatest football players of all time. The website provides information about Pelé's early life, career, accomplishments, and impact on the world of football. It features a visually appealing design and user-friendly navigation.
 
@@ -269,12 +264,6 @@ The photos section showcases a gallery of photos related to Pelé.
 - Heading: The heading displays the title "Photos Gallery."
 - Photos: Multiple photos are displayed, each within a media-highlight-content container.
 
-## Video Highlights Section
-
-The video highlights section features a collection of video highlights showcasing Pelé's skills and memorable moments.
-
-- Heading: The heading displays the title "Video Highlights."
-- Videos: Multiple video highlights are embedded within video-highlight-content containers. Each video is displayed using an iframe element that embeds the YouTube video player.
 
 ## Documentary Section
 
@@ -305,6 +294,33 @@ Contributions to the Pelé - Football Icon website are welcome. If you would lik
 5. Submit a pull request detailing your changes.
 
 Please ensure that your contributions adhere to the existing code style and guidelines.
+
+
+## Validator Testing 
+
+HTML
+- No errors were returned when passing through the official W3C validator.
+  
+  CSS
+  - No errors were found on the when passing through the official (jigsaw) validator. 
+  
+  Accessibility 
+  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. 
+
+
+
+## Testing 
+
+
+- I tested that this website works flawlessly on Chrome, Firefox, and Safari.
+
+- I verified that the project is fully responsive and looks good on all standard screen sizes using the devtools device toolbar.
+
+- The navigation, header, about us, sign up, and contact text are all easily readable and well laid out.
+
+- The form validation is working perfectly. It requires entries in the name and email fields, and the submit button functions flawlessly, providing a smooth user experience.
+
+- I have confirmed that the website is user-friendly and easy to understand, ensuring a positive experience for all users, regardless of their browsing preferences or devices.
 
 ## License
 
