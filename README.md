@@ -23,15 +23,11 @@ To install and run the Pelé - Football Icon website locally, follow these steps
 
 1. Clone the repository:
 
-
    git clone <repository_url>
-   
 
 2. Open the project directory:
 
-
    cd <project_directory>
-
 
 3. Open the desired HTML file in a web browser.
 
@@ -66,7 +62,6 @@ The header section contains the logo, navigation menu, and social media icons.
 - Logo: The logo displays the name "Pelé."
 - Navigation Menu: The navigation menu allows users to navigate to different pages of the website, including the home, about, career, and media pages.
 - Social Media Icons: The social media icons provide links to Pelé's official accounts on Facebook, Instagram, and Twitter.
-
 
 ![header social-icons](https://github.com/BigChatto/history-of-pele/assets/111284905/2f974f04-fe1f-4b76-81d2-eeb3eaf8a6e4)
 
@@ -113,7 +108,7 @@ Feel free to explore the home page of the Pelé - Football Icon website to learn
 
 This is the README for the About page of the Pelé - Football Icon website. The About page provides detailed information about Pelé's life, career, mission, and goals.
 
-## Table of Contents
+## Table of Contents - About Page
 
 - [Introduction](#introduction)
 - [Header](#header)
@@ -123,11 +118,11 @@ This is the README for the About page of the Pelé - Football Icon website. The 
 - [Contact Section](#contact-section)
 - [Footer](#footer)
 
-## Introduction
+## About Introduction
 
 The About page of the Pelé - Football Icon website provides in-depth information about Pelé, the legendary Brazilian football player. It highlights his achievements, contributions to the sport, and his impact beyond football.
 
-## Header
+## About Page - Header
 
 The header section contains the logo, navigation menu, and social media icons.
 
@@ -135,7 +130,7 @@ The header section contains the logo, navigation menu, and social media icons.
 - Navigation Menu: The navigation menu allows users to navigate to different pages of the website, including the home, about, career, and media pages.
 - Social Media Icons: The social media icons provide links to Pelé's official accounts on Facebook, Instagram, and Twitter.
 
-## About Section
+## About Page - Section
 
 The about section provides a detailed overview of Pelé's life and career.
 
@@ -161,7 +156,7 @@ The contact section provides a form for users to get in touch with the website a
 - Form: The form includes fields for the user's full name, email address, and a message. The user is required to fill in these fields to submit the form.
 - Subscribe Button: The form also includes a "Subscribe" button that submits the form when clicked.
 
-## Footer
+## Footer - 
 
 The footer section provides additional information about Pelé and includes links to his official social media accounts.
 
@@ -267,7 +262,6 @@ The quotes section presents a collection of inspiring quotes by Pelé.
 
 ## Photos Section
 
-
 The photos section showcases a gallery of photos related to Pelé.
 
 - Heading: The heading displays the title "Photos Gallery."
@@ -319,10 +313,7 @@ HTML
   Accessibility 
   - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools. 
 
-
-
 ## Testing 
-
 
 - I tested that this website works flawlessly on Chrome, Firefox, and Safari.
 
