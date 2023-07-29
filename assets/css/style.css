@@ -8,6 +8,7 @@
     font-size: 16px;
   }
 
+  
   /* Header styling */
   
   .about-header {
@@ -22,8 +23,22 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    animation: anim 3s ease 0s 1 normal forwards; 
+
   }
   
+  @keyframes anim {
+    0% {
+        background-position: center top;
+        background-size: 80%;
+    }
+
+    100% {
+        background-position: center top;
+        background-size: 100%;
+    }
+  }
+
   .career-header {
     height: 100vh;
     font-weight: bold;
@@ -36,6 +51,8 @@
   
   .header .hero blockquote {
     font-style: italic;
+    width: 50%; 
+    text-align: center; 
   }
   
   .header .header-container {
@@ -134,15 +151,21 @@
     font-size: 1.2rem;
     text-align: center;
     padding: 0 5rem;
+    width: 50%; 
   }
   
-  .header .hero a {
+  .home-about .home-about-content a {
     font-weight: bold;
     border: 0.2rem solid green;
     padding: 0.5rem;
-    color: white;
+    color: green;
   }
   
+  .home-about .home-about-content a:hover {
+    background-color: green;
+    color:#fff; 
+    transition: 0.5s ease-in-out; 
+  }
   /* Header style ends */
   
   /* Home-About Style */
@@ -199,8 +222,7 @@
   
   .home-history-content {
     width: 100%;
-    background-color: #000;
-    color: white;
+    background-color: rgba(128, 128, 128, 0.288);
     border-radius: 0.5rem;
 
   }
@@ -321,6 +343,7 @@
   .about-content h2 {
     font-size: 4rem;
     padding: 1rem;
+    color: green;
   }
   
   .about-container {
