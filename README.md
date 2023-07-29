@@ -1,13 +1,13 @@
 
 # Pelé - Football Icon Website
 
-The README introduces the Pelé - Football Icon website, emphasizing Pelé's legendary impact and football skills. He is celebrated as one of the greatest footballers of all time.
+The README introduces Pelé - The Football Icon website, emphasizing Pelé's legendary impact and football skills. He is celebrated as one of the greatest footballers of all time.
 
 ![index-readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/a138634d-60ad-4abc-9c42-58b9896564e5)
 
 ## Table of Contents
 
-The Pelé - Football Icon website celebrates the legendary football player's life, career, achievements, and impact on the sport in a visually appealing and user-friendly design.
+ Pelé - Football Icon website celebrates the legendary football player's life, career, achievements, and impact on the sport in a visually appealing and user-friendly design.
 
 The website consists of the following pages:
 
@@ -18,7 +18,7 @@ The website consists of the following pages:
 
 ## Installation
 
-To install and run the Pelé - Football Icon website locally, follow these steps:
+To install and run the website for Pelé - Football Icon website locally, follow these steps:
 
 1. Clone the repository:
 
