@@ -3,7 +3,8 @@
 
 The README introduces Pelé - The Football Icon website, emphasizing Pelé's legendary impact and football skills. He is celebrated as one of the greatest footballers of all time.
 
-![index-readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/d3ada36e-4f98-4cca-80b9-7ece22591014)
+![home index-readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/28ac9575-daa6-4cb8-ac4d-ab10e1cfb60e)
+
 
 
 ## Table of Contents
