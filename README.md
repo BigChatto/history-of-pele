@@ -234,6 +234,7 @@ HTML
 ## Image / Media Source
 
 FIFA.com, youtube.com, theguardian.com, bbcsport.co.uk, Remezcla.com, Thesun.co.uk, Twitter.com, people.com, bbc.com, theguardian.com, thadailystar.net, Dailymail.co.uk, Dailysabah.com, Insider.com, Goodfon.com, Marca.com, Sports.ndtv.com
+
 ## License
 
 The Pelé - Football Icon website is licensed under the [MIT License](LICENSE). Feel free to modify and use the code for your own purposes.
