@@ -13,10 +13,10 @@ The README introduces Pelé - The Football Icon website, emphasizing Pelé's leg
 
 The website consists of the following pages:
 
-Home Page
-About Page
-Career Page
-Media Page
+1. [Home Page](#home-page-readme)
+2. [About Page](#about-page-readme)
+3. [Career Page](#career-page-readme)
+4. [Media Page](#media-page-readme)
 
 
 ## Installation
