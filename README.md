@@ -62,7 +62,8 @@ The header showcases the "Pelé" logo, user-friendly navigation menu, and social
 
 The "About" section showcases Pelé's legendary life and career, emphasizing his extraordinary skills, prolific goal-scoring, and inspiring impact on football. It includes an image of the 1958 World Cup for visual appeal. Pelé's achievements with Santos FC and the Brazilian national team are highlighted, along with his role in elevating the sport's popularity worldwide.
 
-![About-readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/78bf4155-e0a9-4a27-a839-939fc96ba67f)
+![About-readMe ](https://github.com/BigChatto/history-of-pele/assets/111284905/a3f83731-3534-4135-949c-d16815681214)
+
 
 ## Journey of Pelé Section
 
