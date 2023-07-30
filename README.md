@@ -231,7 +231,7 @@ HTML
 - Form validation works perfectly, providing a smooth user experience.
 - User-friendly and easy to understand, ensuring a positive experience for all users.
 
-## Image Sources
+## Image / Media Source
 
 FIFA.com, youtube.com, theguardian.com, bbcsport.co.uk, Remezcla.com, Thesun.co.uk, Twitter.com, people.com, bbc.com, theguardian.com, thadailystar.net, Dailymail.co.uk, Dailysabah.com, Insider.com, Goodfon.com, Marca.com, Sports.ndtv.com
 ## License
