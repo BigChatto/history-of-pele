@@ -7,7 +7,6 @@
     list-style-type: none;
     font-size: 16px;
   }
-
   
   /* Header styling */
   
@@ -27,17 +26,19 @@
 
   }
   
+  /* Animation */
+
   @keyframes anim {
     0% {
         background-position: center top;
         background-size: 80%;
     }
 
-    100% {
+    90% {
         background-position: center top;
         background-size: 100%;
     }
-  }
+  } 
 
   .career-header {
     height: 100vh;
@@ -132,8 +133,8 @@
     font-size: 1.2rem;
   }
   
-  /* Hero Style */
-  .header .hero {
+/* Hero Style */
+.header .hero {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -151,7 +152,13 @@
     font-size: 1.2rem;
     text-align: center;
     padding: 0 5rem;
-    width: 50%; 
+  }
+  
+  .header .hero a {
+    font-weight: bold;
+    border: 0.2rem solid green;
+    padding: 0.5rem;
+    color: white;
   }
   
   .home-about .home-about-content a {

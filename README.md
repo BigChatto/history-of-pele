@@ -225,6 +225,25 @@ HTML
 - Readable and well laid out navigation, header, about us, sign up, and contact text.
 - Form validation works perfectly, providing a smooth user experience.
 - User-friendly and easy to understand, ensuring a positive experience for all users.
+
+Image Source
+1. FIFA.com
+2. youtube.com
+3. theguardian.com 
+4. bbcsport.co.uk
+4. Remezcla.com 
+5. Thesun.co.uk 
+6. Twitter.com 
+7. people.com 
+8.  bbc.com  
+9.  theguardian.com
+10. thadailystar.net 
+11. Dailymail.co.uk 
+12. Dailysabah.com
+13. Insider.com 
+14. Goodfon.com
+15. Marca.com
+16. Sports.ndtv.com
   
 ## License
 
