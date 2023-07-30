@@ -70,7 +70,7 @@ The "Journey of Pelé" section features a timeline of significant events and mil
 
 The website features sections highlighting Pelé's early life, club success, international stardom, goal-scoring records, legacy, awards, cultural icon status, injury, and retirement. Each section provides a concise overview of his remarkable journey and impact on football.
 
-![the-journey-of-pele](https://github.com/BigChatto/history-of-pele/assets/111284905/5238980d-c69c-4022-81d9-8dacd65d4710)
+![the-journey-of-pele readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/e95ed6a8-be94-4dd6-836c-b9873844861b)
 
 ### About Page (README)
 
