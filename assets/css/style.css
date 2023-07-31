@@ -5,6 +5,7 @@
       Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     text-decoration: none;
     list-style-type: none;
+    font-size: 16px;
   }
   
   /* Header styling */
@@ -21,8 +22,22 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    animation: anim 3s ease 0s 1 normal forwards; 
+
   }
   
+  /* Animation */
+
+  @keyframes anim {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
   .career-header {
     height: 100vh;
     font-weight: bold;
@@ -35,6 +50,8 @@
   
   .header .hero blockquote {
     font-style: italic;
+    width: 50%; 
+    text-align: center; 
   }
   
   .header .header-container {
@@ -114,8 +131,8 @@
     font-size: 1.2rem;
   }
   
-  /* Hero Style */
-  .header .hero {
+/* Hero Style */
+.header .hero {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -142,6 +159,18 @@
     color: white;
   }
   
+  .home-about .home-about-content a {
+    font-weight: bold;
+    border: 0.2rem solid green;
+    padding: 0.5rem;
+    color: green;
+  }
+  
+  .home-about .home-about-content a:hover {
+    background-color: green;
+    color:#fff; 
+    transition: 0.5s ease-in-out; 
+  }
   /* Header style ends */
   
   /* Home-About Style */
@@ -164,6 +193,7 @@
   
   .home-about .home-about-container .home-about-content h2 {
     font-size: 3rem;
+    color: green;
   }
   
   .home-about .home-about-container .home-about-content p {
@@ -197,16 +227,20 @@
   
   .home-history-content {
     width: 100%;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.288);
     border-radius: 0.5rem;
+
   }
   
   .home-history-container .home-history-content h2 {
     padding: 2rem 2rem 1rem;
+    font-size: 26px;
   }
   
   .home-history-container .home-history-content p {
     padding: 0 2rem 2rem;
+    font-size: 16px;
+    line-height: 1.5;
   }
   
   /* Footer styling begins here */
@@ -314,6 +348,7 @@
   .about-content h2 {
     font-size: 4rem;
     padding: 1rem;
+    color: green;
   }
   
   .about-container {
@@ -577,36 +612,6 @@
     text-transform: capitalize;
     font-style: italic;
   }
-  
-  .video-highlight {
-    padding-top: 2rem;
-  }
-  
-  .video-highlight h2 {
-    font-size: 3rem;
-    text-align: center;
-    text-transform: capitalize;
-    padding: 1rem 0 2rem;
-    color: green;
-  }
-  
-  .video-highlight-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 4rem;
-  }
-  
-  .video-highlight-content iframe {
-    width: 100%;
-    height: 215px; 
-    border: 0;
-  }
-
-
 
   .documentary {
     padding: 4rem 0 2rem;

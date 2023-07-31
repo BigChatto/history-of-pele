@@ -3,9 +3,15 @@
 
 The README introduces Pelé - The Football Icon website, emphasizing Pelé's legendary impact and football skills. He is celebrated as one of the greatest footballers of all time.
 
+animation
+
+![index-readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/a138634d-60ad-4abc-9c42-58b9896564e5)
+=======
+
 ![home index-readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/28ac9575-daa6-4cb8-ac4d-ab10e1cfb60e)
 
 
+ main
 
 ## Table of Contents
 
@@ -65,6 +71,17 @@ The header showcases the "Pelé" logo, user-friendly navigation menu, and social
 
 The "About" section showcases Pelé's legendary life and career, emphasizing his extraordinary skills, prolific goal-scoring, and inspiring impact on football. It includes an image of the 1958 World Cup for visual appeal. Pelé's achievements with Santos FC and the Brazilian national team are highlighted, along with his role in elevating the sport's popularity worldwide.
 
+ animation
+![About-readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/78bf4155-e0a9-4a27-a839-939fc96ba67f)
+
+## Journey of Pelé Section
+
+The "Journey of Pelé" section features a timeline of significant events and milestones, providing an overview of his remarkable life and career.
+
+The website features sections highlighting Pelé's early life, club success, international stardom, goal-scoring records, legacy, awards, cultural icon status, injury, and retirement. Each section provides a concise overview of his remarkable journey and impact on football.
+
+![the-journey-of-pele readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/e95ed6a8-be94-4dd6-836c-b9873844861b)
+=======
 ![About-readMe ](https://github.com/BigChatto/history-of-pele/assets/111284905/a3f83731-3534-4135-949c-d16815681214)
 
 
@@ -76,6 +93,7 @@ The website features sections highlighting Pelé's early life, club success, int
 
 ![the-journey-of-pele readMe](https://github.com/BigChatto/history-of-pele/assets/111284905/e95ed6a8-be94-4dd6-836c-b9873844861b)
 
+ main
 
 ### About Page (README)
 
@@ -231,10 +249,32 @@ HTML
 - Form validation works perfectly, providing a smooth user experience.
 - User-friendly and easy to understand, ensuring a positive experience for all users.
 
+ animation
+Image Source
+1. FIFA.com
+2. youtube.com
+3. theguardian.com 
+4. bbcsport.co.uk
+4. Remezcla.com 
+5. Thesun.co.uk 
+6. Twitter.com 
+7. people.com 
+8.  bbc.com  
+9.  theguardian.com
+10. thadailystar.net 
+11. Dailymail.co.uk 
+12. Dailysabah.com
+13. Insider.com 
+14. Goodfon.com
+15. Marca.com
+16. Sports.ndtv.com
+  
+=======
 ## Image / Media Source
 
 FIFA.com, youtube.com, theguardian.com, bbcsport.co.uk, Remezcla.com, Thesun.co.uk, Twitter.com, people.com, bbc.com, theguardian.com, thadailystar.net, Dailymail.co.uk, Dailysabah.com, Insider.com, Goodfon.com, Marca.com, Sports.ndtv.com
 
+ main
 ## License
 
 The Pelé - Football Icon website is licensed under the [MIT License](LICENSE). Feel free to modify and use the code for your own purposes.
