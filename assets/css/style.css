@@ -29,16 +29,14 @@
   /* Animation */
 
   @keyframes anim {
-    0% {
-        background-position: center top;
-        background-size: 80%;
+    from {
+        transform: scale(0.8);
     }
 
-    90% {
-        background-position: center top;
-        background-size: 100%;
+    to {
+        transform: scale(1);
     }
-  } 
+}
 
   .career-header {
     height: 100vh;
